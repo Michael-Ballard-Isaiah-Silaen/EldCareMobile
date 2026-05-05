@@ -2,7 +2,7 @@ import axios from 'axios';
 import * as SecureStore from 'expo-secure-store';
 
 const api = axios.create({
-  baseURL: 'https://eld-care-web-proto.vercel.app',
+  baseURL: 'https://eldcarebackend.vercel.app',
 });
 
 api.interceptors.request.use(async (config) => {
